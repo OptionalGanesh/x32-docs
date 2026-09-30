@@ -5,11 +5,12 @@ on:
     - cron: '0 6 * * 1' # Cada lunes a las 06:00 UTC
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   update-docs:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -30,14 +31,14 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/check_updates.py
 
-      - name: Commit and push changes
+      - name: Commit and Push Changes
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+          git config --local user.name 'github-actions[bot]'
+          git config --local user.email 'github-actions[bot]@users.noreply.github.com'
           git add docs/updates/
           if git diff --staged --quiet; then
             echo "No hay actualizaciones que commitear."
           else
-            git commit -m "docs(updates): automated addition of release analysis"
+            git commit -m "docs: auto-update firmware & app release notes"
             git push origin main
           fi
