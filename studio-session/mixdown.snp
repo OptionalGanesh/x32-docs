@@ -26,7 +26,8 @@
 /ch/11/config "Stem 11" 60 WHi 11
 /ch/11/mix/st ON
 /ch/12/config "Stem 12" 60 WHi 12
-/ch/12/config "Stem 13" 60 WHi 13
+/ch/12/mix/st ON
+/ch/13/config "Stem 13" 60 WHi 13
 /ch/13/mix/st ON
 /ch/14/config "Stem 14" 60 WHi 14
 /ch/14/mix/st ON
