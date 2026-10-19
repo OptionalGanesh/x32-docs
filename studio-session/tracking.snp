@@ -1,0 +1,28 @@
+#4.0# "Logic Tracking 16" 41945090 -1073676289 0 0 1                                                                           
+/config/routing/IN/1-8 UIN1-8
+/config/routing/IN/9-16 UIN9-16
+/config/routing/IN/17-24 UIN17-24
+/config/routing/IN/25-32 UIN25-32
+/config/routing/CARD/1-8 AN1-8
+/config/routing/CARD/9-16 AN9-16
+/config/userrout/in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 130
+/ch/01/config "Kick" 2 RDi 1
+/ch/02/config "Snare" 4 RDi 2
+/ch/03/config "Tom 1" 6 RDi 3
+/ch/04/config "Tom 2" 6 RDi 4
+/ch/05/config "Tom 3" 8 RDi 5
+/ch/06/config "OH L" 11 RDi 6
+/ch/07/config "OH R" 11 RDi 7
+/ch/08/config "Bass DI" 17 YEi 8
+/ch/09/config "Gtr L" 20 GNi 9
+/ch/10/config "Gtr R" 20 GNi 10
+/ch/11/config "Keys L" 24 CYi 11
+/ch/12/config "Keys R" 24 CYi 12
+/ch/13/config "Lead Vox" 28 CYi 13
+/ch/14/config "BGV 1" 29 CYi 14
+/ch/15/config "BGV 2" 29 CYi 15
+/ch/16/config "Click" 40 WHi 16
+/ch/31/config "DAW L" 60 WHi 31
+/ch/31/mix/st ON
+/ch/32/config "DAW R" 60 WHi 32
+/ch/32/mix/st ON

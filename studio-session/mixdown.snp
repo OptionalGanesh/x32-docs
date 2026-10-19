@@ -1,0 +1,68 @@
+#4.0# "Logic Mixdown 32" 8390658 -1 0 0 1                                                                                      
+/config/routing/PLAY/1-8 CARD1-8
+/config/routing/PLAY/9-16 CARD9-16
+/config/routing/PLAY/17-24 CARD17-24
+/config/routing/PLAY/25-32 CARD25-32
+/ch/01/config "Stem 01" 60 WHi 1
+/ch/01/mix/st ON
+/ch/02/config "Stem 02" 60 WHi 2
+/ch/02/mix/st ON
+/ch/03/config "Stem 03" 60 WHi 3
+/ch/03/mix/st ON
+/ch/04/config "Stem 04" 60 WHi 4
+/ch/04/mix/st ON
+/ch/05/config "Stem 05" 60 WHi 5
+/ch/05/mix/st ON
+/ch/06/config "Stem 06" 60 WHi 6
+/ch/06/mix/st ON
+/ch/07/config "Stem 07" 60 WHi 7
+/ch/07/mix/st ON
+/ch/08/config "Stem 08" 60 WHi 8
+/ch/08/mix/st ON
+/ch/09/config "Stem 09" 60 WHi 9
+/ch/09/mix/st ON
+/ch/10/config "Stem 10" 60 WHi 10
+/ch/10/mix/st ON
+/ch/11/config "Stem 11" 60 WHi 11
+/ch/11/mix/st ON
+/ch/12/config "Stem 12" 60 WHi 12
+/ch/12/config "Stem 13" 60 WHi 13
+/ch/13/mix/st ON
+/ch/14/config "Stem 14" 60 WHi 14
+/ch/14/mix/st ON
+/ch/15/config "Stem 15" 60 WHi 15
+/ch/15/mix/st ON
+/ch/16/config "Stem 16" 60 WHi 16
+/ch/16/mix/st ON
+/ch/17/config "Stem 17" 60 WHi 17
+/ch/17/mix/st ON
+/ch/18/config "Stem 18" 60 WHi 18
+/ch/18/mix/st ON
+/ch/19/config "Stem 19" 60 WHi 19
+/ch/19/mix/st ON
+/ch/20/config "Stem 20" 60 WHi 20
+/ch/20/mix/st ON
+/ch/21/config "Stem 21" 60 WHi 21
+/ch/21/mix/st ON
+/ch/22/config "Stem 22" 60 WHi 22
+/ch/22/mix/st ON
+/ch/23/config "Stem 23" 60 WHi 23
+/ch/23/mix/st ON
+/ch/24/config "Stem 24" 60 WHi 24
+/ch/24/mix/st ON
+/ch/25/config "Stem 25" 60 WHi 25
+/ch/25/mix/st ON
+/ch/26/config "Stem 26" 60 WHi 26
+/ch/26/mix/st ON
+/ch/27/config "Stem 27" 60 WHi 27
+/ch/27/mix/st ON
+/ch/28/config "Stem 28" 60 WHi 28
+/ch/28/mix/st ON
+/ch/29/config "Stem 29" 60 WHi 29
+/ch/29/mix/st ON
+/ch/30/config "Stem 30" 60 WHi 30
+/ch/30/mix/st ON
+/ch/31/config "Stem 31" 60 WHi 31
+/ch/31/mix/st ON
+/ch/32/config "Stem 32" 60 WHi 32
+/ch/32/mix/st ON
